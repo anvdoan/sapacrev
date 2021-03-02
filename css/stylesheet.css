@@ -3,6 +3,14 @@ body {
    margin: 0;
    background: #50aca4;
 }
+.header {
+  padding: 60px;
+  text-align: center;
+  color: #e0ebeb;
+  font-size: 30px;
+  line-height: 2;
+}
+
 
 h1 {
   text-align: center;
@@ -14,12 +22,6 @@ p {
   margin-bottom:60px;
 }
 
-h4{
-  text-align:center;
-  line-height:80px;
-  font-weight:normal;
-
-}
 
 .masonry { /* Masonry container */
     -webkit-column-count: 4;
@@ -48,6 +50,14 @@ h4{
     box-shadow: 2px 2px 4px 0 #ccc;
 }
 .item img{max-width:100%;}
+
+.grow {
+transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+transform: scale(1.1);
+}
 
 @media only screen and (max-width: 320px) {
     .masonry {
