@@ -5,11 +5,15 @@ body {
    color: #222;
 }
 .header {
-  padding: 0px;
+
+background: url(../img/header_img-min.png) no-repeat;
+  /*padding: 0px;
   text-align: center;
   color: #e0ebeb;
   font-size: 30px;
   line-height: 2;
+  */
+
 }
 
 
