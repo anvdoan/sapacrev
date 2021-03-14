@@ -3,10 +3,16 @@ body {
    margin: 0;
    background: #50aca4;
    color: #222;
+   height: 100%;
+}
+html{
+  height: 100%
 }
 .header {
 
-background: url(../img/header_img-min.png) no-repeat;
+background: url(../img/header_img_desktop.png) no-repeat;
+height: 50%;
+background-size: 100% 100%;
   /*padding: 0px;
   text-align: center;
   color: #e0ebeb;
