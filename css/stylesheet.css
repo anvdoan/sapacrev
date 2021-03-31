@@ -8,6 +8,22 @@ body {
 html{
   height: 100%;
 }
+.box{
+  margin: 5em auto 5em auto;
+  width: 75%;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 2em;
+}
+
+.box p{
+  text-align: left;
+}
+
+.resource p{
+  text-align: center;
+
+}
 .header {
 background: url(../img/header_img_desktop.png) no-repeat;
 height: 50%;
@@ -21,18 +37,31 @@ a{
 
 h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-bottom: 1em;
 }
 
-h2, h3{
+h2, h3, h4{
   margin: 0 0 0.35em;
   text-align: center;
   line-height: 2;
 }
 
+
+.podlist{
+  text-align: center;
+  list-style: none;
+}
+
 p {
   text-align: center;
   margin: 0 0 1.15em;
+}
+.artwork img{
+  height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 footer{
